@@ -1,0 +1,5 @@
+com/cmani/msscbreweryclient/MsscBreweryClientApplication.class
+com/cmani/msscbreweryclient/model/BeerDto.class
+com/cmani/msscbreweryclient/web/client/BreweryClient.class
+com/cmani/msscbreweryclient/model/CustomerDto$CustomerDtoBuilder.class
+com/cmani/msscbreweryclient/model/BeerDto$BeerDtoBuilder.class

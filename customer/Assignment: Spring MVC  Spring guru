@@ -1,0 +1,6 @@
+Assignment: Spring MVC  Spring guru
+-----------------------------------
+1. Create a Customer class
+2. Attributes customerId - UUID, customerName - String, gender - String, email - String
+3. Use Lombok for DTO, Service
+4. Verify using postman

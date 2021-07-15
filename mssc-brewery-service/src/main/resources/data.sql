@@ -1,0 +1,1 @@
+INSERT INTO beer(id,beer_name,beer_style,created_date,last_modified_date,min_on_hand,quantity_to_brew,price,upc,version) VALUES("0a818933-087d-47f2-ad83-2f986ed087eb","Asahi","ALE,sysdate,sysdate, 190, 1, 189.75,"0631234200036",1);

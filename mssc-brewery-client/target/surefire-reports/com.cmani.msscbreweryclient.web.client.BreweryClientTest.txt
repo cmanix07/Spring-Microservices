@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: com.cmani.msscbreweryclient.web.client.BreweryClientTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 11.512 s <<< FAILURE! - in com.cmani.msscbreweryclient.web.client.BreweryClientTest
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewCustomer_Success  Time elapsed: 2.588 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9191/api/v1/customer/": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewCustomer_Success(BreweryClientTest.java:55)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewCustomer_Success(BreweryClientTest.java:55)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewCustomer_Success(BreweryClientTest.java:55)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewBeer_Success  Time elapsed: 0.073 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9191/api/v1/beer/": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewBeer_Success(BreweryClientTest.java:31)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewBeer_Success(BreweryClientTest.java:31)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldSaveNewBeer_Success(BreweryClientTest.java:31)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteCustomer_Success  Time elapsed: 0.012 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:9191/api/v1/customer/41c9b2e4-884b-46af-ab10-81e7f7a8c705": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteCustomer_Success(BreweryClientTest.java:67)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteCustomer_Success(BreweryClientTest.java:67)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteCustomer_Success(BreweryClientTest.java:67)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetBeerById_Success  Time elapsed: 0.287 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:9191/api/v1/beer/1928a119-d9c8-4075-aded-8c8fbe18bf40": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetBeerById_Success(BreweryClientTest.java:24)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetBeerById_Success(BreweryClientTest.java:24)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetBeerById_Success(BreweryClientTest.java:24)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateCustomer_Success  Time elapsed: 0.094 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:9191/api/v1/customer/7ae68b52-1a63-47f1-9503-71d24e35c189": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateCustomer_Success(BreweryClientTest.java:62)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateCustomer_Success(BreweryClientTest.java:62)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateCustomer_Success(BreweryClientTest.java:62)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetCustomerById_Success  Time elapsed: 0.01 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:9191/api/v1/customer/e7c23146-e64a-43af-8d45-b8ef5be45cd3": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetCustomerById_Success(BreweryClientTest.java:48)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetCustomerById_Success(BreweryClientTest.java:48)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldGetCustomerById_Success(BreweryClientTest.java:48)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteBeer_Success  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:9191/api/v1/beer/800ac3c7-7206-4e14-8e3d-457d3f958841": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteBeer_Success(BreweryClientTest.java:43)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteBeer_Success(BreweryClientTest.java:43)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldDeleteBeer_Success(BreweryClientTest.java:43)
+
+com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateBeer_Success  Time elapsed: 0.005 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:9191/api/v1/beer/7d50e076-a629-43e4-82d3-a0ad22e1c113": Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateBeer_Success(BreweryClientTest.java:38)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateBeer_Success(BreweryClientTest.java:38)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at com.cmani.msscbreweryclient.web.client.BreweryClientTest.shouldUpdateBeer_Success(BreweryClientTest.java:38)
+

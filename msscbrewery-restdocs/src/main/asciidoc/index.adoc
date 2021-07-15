@@ -1,0 +1,50 @@
+=msscbrewery-restdocs
+
+Sample application demonstrations of Rest Docs with junit5
+
+BeerControllerTest makes a call to a very simple service and produces three documentation snippets
+
+One showing how to make request using curl
+
+Get Beer
+
+include::{snippets}/v1/beer-get/curl-request.adoc[]
+
+One showing how to make Http request
+
+include::{snippets}/v1/beer-get/https-request.adoc[]
+
+One showing how to make Http response
+
+include::{snippets}/v1/beer-get/https-response.adoc[]
+
+One showing Response Body:
+
+include::{snippets}/v1/beer-get/response-body.adoc[]
+
+One showing Response Fields:
+
+include::{snippets}/v1/beer-get/response-fields.adoc[]
+
+Save Beer
+
+include::{snippets}/v1/beer-save/curl-request.adoc[]
+
+One showing how to make Http request
+
+include::{snippets}/v1/beer-save/https-request.adoc[]
+
+One showing how to make Http response
+
+include::{snippets}/v1/beer-save/https-response.adoc[]
+
+One showing Response Body:
+
+include::{snippets}/v1/beer-save/response-body.adoc[]
+
+Request Fields Validation
+include::{snippets}/v1/beer-save/request-fields.adoc[]
+
+Response Fields:
+include::{snippets}
+

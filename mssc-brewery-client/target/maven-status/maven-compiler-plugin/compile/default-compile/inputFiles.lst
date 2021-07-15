@@ -1,0 +1,5 @@
+/Users/chintamaniprasad/study/workspace/MyRepo/Spring-Microservices/mssc-brewery-client/src/main/java/com/cmani/msscbreweryclient/MsscBreweryClientApplication.java
+/Users/chintamaniprasad/study/workspace/MyRepo/Spring-Microservices/mssc-brewery-client/src/main/java/com/cmani/msscbreweryclient/model/BeerDto.java
+/Users/chintamaniprasad/study/workspace/MyRepo/Spring-Microservices/mssc-brewery-client/src/main/java/com/cmani/msscbreweryclient/model/CustomerDto.java
+/Users/chintamaniprasad/study/workspace/MyRepo/Spring-Microservices/mssc-brewery-client/src/main/java/com/cmani/msscbreweryclient/web/client/config/BlockingRestTemplateCustomizer.java
+/Users/chintamaniprasad/study/workspace/MyRepo/Spring-Microservices/mssc-brewery-client/src/main/java/com/cmani/msscbreweryclient/web/client/BreweryClient.java
